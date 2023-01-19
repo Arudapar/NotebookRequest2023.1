@@ -4,4 +4,7 @@
 
 <p><%= @product.serial %></p>
 
-<%= link_to 'Voltar', root_path %>
+<ul> 
+<li><%= link_to 'Edit', edit_product_path(@product) %></li>
+<li><%= link_to 'Back', root_path %></li>
+</ul>
